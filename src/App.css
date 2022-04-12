@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .App-logo {
@@ -14,7 +15,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #b370e7;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -22,6 +23,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  margin: 50px 100px;
 }
 
 .App-link {
@@ -35,4 +37,30 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.container h3 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.icon {
+  width: 200px;
+  margin: 50px;
+}
+
+.main-div {
+  display: flex;
+}
+
+.button button {
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  width: auto;
+  box-shadow: -4px 8px #999;
+}
+
+.button button:active {
+  background-color: #3e8e41;
+  box-shadow: 2px 5px #666;
+  transform: translateY(4px);
 }
